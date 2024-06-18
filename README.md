@@ -54,12 +54,12 @@ _Python-based command line tool that allows a user to commission the scanning ca
 
 ![Failed](demo/tool_report_error.png)
 
-    The tool gives error message in possible cases as follows:
-    - JSON file provided is malformed or contains invalid syntax.
-    - Configuration list does not contain all the required fields (ID, Serial, Type, Gain).
-    - Gain value in JSON object is not a valid number.
-    - Duplicate IDs in the JSON object.
-    - Duplicate serial numbers in the JSON object.
+The tool gives error message in possible cases as follows:
+- JSON file provided is malformed or contains invalid syntax.
+- Configuration list does not contain all the required fields (ID, Serial, Type, Gain).
+- Gain value in JSON object is not a valid number.
+- Duplicate IDs in the JSON object.
+- Duplicate serial numbers in the JSON object.
 
 ## Running Tests
 
